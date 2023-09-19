@@ -1,4 +1,9 @@
-# toupper <string>
+# XPRGC
+
+Ondřej Surý, P23010
+Úkol č.1
+
+## toupper <string>
 
 POSIX definuje funkci pro převod malých písmen na velká jako:
 
@@ -9,7 +14,7 @@ implementace inspirovaná implementací z glibc používá tabulku, která
 je v rozsahu od CHAR_MIN do UCHAR_MAX, tedy buď <0, 255> nebo
 <-127, 255>, dle platformy, na které se aplikace kompiluje.
 
-# valec <r> <v>
+## valec <r> <v>
 
 Jediná trochu zajímavá věc je použití konstanty M_PI z hlavičkového
 souboru <math.h>.  Při použití funkcí z <math.h> je/bylo na některých
@@ -17,7 +22,7 @@ platformách zapotřebí linkovat libm, ale protože používáme jenom
 konstantu z hlavičkového souboru, tak to v tomto případě můžeme
 vynechat.
 
-# checkprime <repeats> <prime> [<prime> ...]
+## checkprime <repeats> <prime> [<prime> ...]
 
 Program checkprime kontroluje zda-li je/jsou zadaná čísla prvočísla
 několika metodami (první použité jsou adaptací zdroje [1]).
